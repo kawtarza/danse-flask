@@ -1,0 +1,99 @@
+  <!--navbar-->
+  
+.navbar {
+  
+ 
+  
+  
+}
+
+
+.hero {
+  background-image: url("/static/photos/home-image.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
+  
+}
+
+ 
+.hero h1 {
+  color: white;
+  font-size: 125px;
+  
+  
+}
+.hero h2 {
+  color: white;
+  font-size: 40px;
+
+  
+}
+.layer2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb( 75, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link{
+  color: white;
+  font-weight: bold
+}
+
+.card-img-top {
+  padding-bottom: 30px;
+  height: 50%;
+  background-size: cover;
+}
+
+.btn{
+  background-color: pink;
+  border-color: pink;
+}
+
+
+  <!--équipe-->
+    
+.row{
+  padding-bottom: 30px;
+}
+
+
+.carte {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.carte img {
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.carte-texte {
+  padding-left: 20px;
+  margin-right: 25px;
+}
+
+.rowtop {
+  margin-bottom: 70px;
+}
+
+.equipe h2 {
+  margin-left: 100px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.logo {
+  filter : brightness(0);
+}
+
+

@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block fix %}
+
+{% if not skip_fixed_top %} fixed-top {% endif %}
+{% endblock %}
+{% block content %}
+<style>
+  h2 {
+    text-align: center;
+    color: white;
+    
+  }
+  body{
+     background-image: url("/static/photos/home-image.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px
+  }
+  nav {
+    position: static;
+  }
+  .nav-link{
+  color: black;
+  font-weight: bold
+}
+  
+</style>
+<div class="contact" >
+<h2>Formulaire de contact </h2>
+<form action="#" class="col-md-6 col-12 offset-md-3" >
+
+    <p class="form-group">
+      <label for="first name ">Prénom :</label>
+      <input type="text" class="form-control">
+    </p>
+    <p class="form-group ">
+      <label for="name ">Nom :</label>
+      <input type="text" class="form-control">
+    </p>
+  
+    <p class="form-group ">
+      <label for="adresse ">Adresse :</label>
+      <input type="text" class="form-control">
+    </p>
+     <p class="form-group ">
+      <label for="number phone "> Téléphone:</label>
+      <input type="text" class="form-control">
+    </p>
+  
+  
+  
+    
+    <br>
+    <input class="btn btn-primary" type="submit" value="cliquez ici"
+      style=>
+  </form>
+  </div>
+{% endblock %}
